@@ -1,0 +1,5 @@
+C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\bin\Debug\SimpleQuizer.dll
+C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\bin\Debug\SimpleQuizer.pdb
+C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.csproj.CoreCompileInputs.cache
+C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.dll
+C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.pdb

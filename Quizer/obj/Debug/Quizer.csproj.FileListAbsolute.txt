@@ -1,0 +1,6 @@
+C:\Users\User_01\Anatoly\OfflineQuizer\Quizer\obj\Debug\Quizer.csproj.AssemblyReference.cache
+C:\Users\User_01\Anatoly\OfflineQuizer\Quizer\obj\Debug\Quizer.csproj.CoreCompileInputs.cache
+C:\Users\User_01\Anatoly\OfflineQuizer\Quizer\bin\Debug\Quizer.dll
+C:\Users\User_01\Anatoly\OfflineQuizer\Quizer\bin\Debug\Quizer.pdb
+C:\Users\User_01\Anatoly\OfflineQuizer\Quizer\obj\Debug\Quizer.dll
+C:\Users\User_01\Anatoly\OfflineQuizer\Quizer\obj\Debug\Quizer.pdb

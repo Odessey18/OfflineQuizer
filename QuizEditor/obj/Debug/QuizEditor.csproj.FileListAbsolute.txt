@@ -1,0 +1,13 @@
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\bin\Debug\QuizEditor.exe.config
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\bin\Debug\QuizEditor.exe
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\bin\Debug\QuizEditor.pdb
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\bin\Debug\Quizer.dll
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\bin\Debug\Quizer.pdb
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\QuizEditor.csproj.AssemblyReference.cache
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\SimpleQuizer.Editor.Form1.resources
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\SimpleQuizer.Editor.Properties.Resources.resources
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\QuizEditor.csproj.GenerateResource.cache
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\QuizEditor.csproj.CoreCompileInputs.cache
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\QuizEditor.csproj.CopyComplete
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\QuizEditor.exe
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizEditor\obj\Debug\QuizEditor.pdb
