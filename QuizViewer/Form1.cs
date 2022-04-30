@@ -24,5 +24,7 @@ namespace SimpleQuizer.Viewer
             c.Show();
             
         }
+
+
     }
 }
