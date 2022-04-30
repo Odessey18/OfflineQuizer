@@ -7,3 +7,4 @@ C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.csproj.Asse
 C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.csproj.CoreCompileInputs.cache
 C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.dll
 C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.pdb
+C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.csproj.AssemblyReference.cache

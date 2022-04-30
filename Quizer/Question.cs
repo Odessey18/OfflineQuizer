@@ -4,21 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quizer
+namespace SimpleQuizer
 {
     public enum QuestionType
     {
-        Choise,
-        open
+        MultiChoise,
+        Choise
     }
+
     public class Question
     {
         public int Number;
-        public string QuastionText;
+        public string Text;
         public QuestionType Type;
-        public List<string> Answer;
+        public List<Answer> Answers;
 
-
+        public Question()
+        {
+            Answers = new List<Answer>();
+        }
         
     }
 }

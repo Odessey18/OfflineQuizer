@@ -12,8 +12,6 @@ C:\Users\User_01\Anatoly\OfflineQuizer\QuizViewer\bin\Debug\Quizer.dll
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\QuizViewer.exe.config
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\QuizViewer.exe
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\QuizViewer.pdb
-C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\Quizer.dll
-C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.csproj.AssemblyReference.cache
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\SimpleQuizer.Viewer.Form1.resources
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\SimpleQuizer.Viewer.Properties.Resources.resources
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.csproj.GenerateResource.cache
@@ -32,3 +30,6 @@ C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.csproj.Co
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.csproj.CopyComplete
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.exe
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.pdb
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\QuizViewer.csproj.AssemblyReference.cache
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.dll
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.pdb

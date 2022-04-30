@@ -11,21 +11,24 @@ namespace SimpleQuizer
         {
             Questions = new List<Question>();
         }
-
+        #region Debug
         public static Quiz GetTestQuiz()
         {
-            Quiz q = new Quiz();
-            Questions = new List<Question>();
+            Quiz quiz = new Quiz();
+
             Question q = new Question();
             q.Number = 1;
-            q.QuestionText = "test";
+            q.Text = "Для чего инжектор?";
             q.Type = QuestionType.Choise;
-            q.Answers.Add("1 answer");
-            q.Answers.Add("2 answer");
-            q.Answers.Add("3 answer");
+            q.Answers.Add(new Answer("для фильтрации газа", false));
+            q.Answers.Add(new Answer("для подачи топлива ", true));
+            q.Answers.Add(new Answer("для уменьшения сопротивления воздуха", false));
+           
+            
 
             quiz.Questions.Add(q);
             return quiz;
         }
+        #endregion
     }
 }
