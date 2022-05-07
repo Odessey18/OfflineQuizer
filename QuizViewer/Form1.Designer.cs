@@ -31,6 +31,8 @@ namespace SimpleQuizer.Viewer
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьТестовыйТестToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AnswerText = new System.Windows.Forms.TextBox();
             this.NumberLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -43,9 +45,9 @@ namespace SimpleQuizer.Viewer
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.InfoLabel = new System.Windows.Forms.Label();
-            this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьТестовыйТестToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CorectnessButton = new System.Windows.Forms.Button();
+            this.Last_button = new System.Windows.Forms.Button();
+            this.Next_button = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +68,21 @@ namespace SimpleQuizer.Viewer
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
             this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.файлToolStripMenuItem.Text = "Файл";
+            // 
+            // debugToolStripMenuItem
+            // 
+            this.debugToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.открытьТестовыйТестToolStripMenuItem});
+            this.debugToolStripMenuItem.Name = "debugToolStripMenuItem";
+            this.debugToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.debugToolStripMenuItem.Text = "Debug";
+            // 
+            // открытьТестовыйТестToolStripMenuItem
+            // 
+            this.открытьТестовыйТестToolStripMenuItem.Name = "открытьТестовыйТестToolStripMenuItem";
+            this.открытьТестовыйТестToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.открытьТестовыйТестToolStripMenuItem.Text = "открыть тестовый тест";
+            this.открытьТестовыйТестToolStripMenuItem.Click += new System.EventHandler(this.открытьТестовыйТестToolStripMenuItem_Click);
             // 
             // AnswerText
             // 
@@ -234,37 +251,47 @@ namespace SimpleQuizer.Viewer
             this.InfoLabel.TabIndex = 4;
             this.InfoLabel.Text = "label1";
             // 
-            // debugToolStripMenuItem
-            // 
-            this.debugToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьТестовыйТестToolStripMenuItem});
-            this.debugToolStripMenuItem.Name = "debugToolStripMenuItem";
-            this.debugToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.debugToolStripMenuItem.Text = "Debug";
-            // 
-            // открытьТестовыйТестToolStripMenuItem
-            // 
-            this.открытьТестовыйТестToolStripMenuItem.Name = "открытьТестовыйТестToolStripMenuItem";
-            this.открытьТестовыйТестToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.открытьТестовыйТестToolStripMenuItem.Text = "открыть тестовый тест";
-            this.открытьТестовыйТестToolStripMenuItem.Click += new System.EventHandler(this.открытьТестовыйТестToolStripMenuItem_Click);
-            // 
             // CorectnessButton
             // 
             this.CorectnessButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.CorectnessButton.Location = new System.Drawing.Point(12, 509);
+            this.CorectnessButton.Location = new System.Drawing.Point(59, 509);
             this.CorectnessButton.Name = "CorectnessButton";
-            this.CorectnessButton.Size = new System.Drawing.Size(755, 40);
+            this.CorectnessButton.Size = new System.Drawing.Size(666, 40);
             this.CorectnessButton.TabIndex = 5;
             this.CorectnessButton.Text = "Проверка";
             this.CorectnessButton.UseVisualStyleBackColor = true;
+            this.CorectnessButton.Click += new System.EventHandler(this.CorectnessButton_Click);
+            // 
+            // Last_button
+            // 
+            this.Last_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Last_button.Location = new System.Drawing.Point(11, 509);
+            this.Last_button.Name = "Last_button";
+            this.Last_button.Size = new System.Drawing.Size(42, 40);
+            this.Last_button.TabIndex = 6;
+            this.Last_button.Text = "<";
+            this.Last_button.UseVisualStyleBackColor = true;
+            this.Last_button.Click += new System.EventHandler(this.Last_button_Click);
+            // 
+            // Next_button
+            // 
+            this.Next_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Next_button.Location = new System.Drawing.Point(731, 509);
+            this.Next_button.Name = "Next_button";
+            this.Next_button.Size = new System.Drawing.Size(42, 40);
+            this.Next_button.TabIndex = 7;
+            this.Next_button.Text = ">";
+            this.Next_button.UseVisualStyleBackColor = true;
+            this.Next_button.Click += new System.EventHandler(this.Next_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.Next_button);
+            this.Controls.Add(this.Last_button);
             this.Controls.Add(this.CorectnessButton);
             this.Controls.Add(this.InfoLabel);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -304,6 +331,8 @@ namespace SimpleQuizer.Viewer
         private System.Windows.Forms.ToolStripMenuItem debugToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem открытьТестовыйТестToolStripMenuItem;
         private System.Windows.Forms.Button CorectnessButton;
+        private System.Windows.Forms.Button Last_button;
+        private System.Windows.Forms.Button Next_button;
     }
 }
 
