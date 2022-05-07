@@ -60,7 +60,7 @@ namespace SimpleQuizer.Viewer
                 t.Multiline = true;
                 t.Height = tableLayoutPanel1.GetRowHeights()[0];
                 t.Width = tableLayoutPanel1.GetColumnWidths()[1];
-                t.Text = question.Answers[i].text + question.Answers[i].correct.ToString();
+                t.Text = question.Answers[i].text + " " +  question.Answers[i].correct.ToString();
                 tableLayoutPanel1.Controls.Add(t, 1, i);
             }
             

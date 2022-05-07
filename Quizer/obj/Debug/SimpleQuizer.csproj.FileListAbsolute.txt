@@ -8,3 +8,5 @@ C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.csproj.Core
 C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.dll
 C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.pdb
 C:\Users\Vasya\Desktop\OfflineQuizer\Quizer\obj\Debug\SimpleQuizer.csproj.AssemblyReference.cache
+C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\bin\Debug\SimpleQuizer.dll
+C:\Users\noMercy\Desktop\OfflineQuizer\Quizer\bin\Debug\SimpleQuizer.pdb

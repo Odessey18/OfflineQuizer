@@ -12,8 +12,8 @@ namespace SimpleQuizer
         public bool correct;
         public Answer(string Text, bool Correct)
         {
-            Text = text;
-            Correct = correct;
+            text = Text;
+            correct = Correct;
         }
     }
 }
