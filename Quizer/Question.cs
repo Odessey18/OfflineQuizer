@@ -12,6 +12,7 @@ namespace SimpleQuizer
         Choise
     }
 
+    [Serializable]
     public class Question
     {
         public int Number;

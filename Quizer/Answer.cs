@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleQuizer
 {
+    [Serializable]
     public class Answer
     {
         public string text;

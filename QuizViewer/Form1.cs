@@ -124,7 +124,7 @@ namespace SimpleQuizer.Viewer
                 t.Multiline = true;
                 t.Height = tableLayoutPanel1.GetRowHeights()[0];
                 t.Width = tableLayoutPanel1.GetColumnWidths()[1];
-                t.Text = question.Answers[i].text + " " +  question.Answers[i].correct.ToString();
+                t.Text = question.Answers[i].text ;
                 tableLayoutPanel1.Controls.Add(t, 1, i);
 
                 questionControls.Add(z);
@@ -134,6 +134,21 @@ namespace SimpleQuizer.Viewer
 
         }
 
-        
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Quiz.GetTestQuiz().Save("TestQuiz.tqf");
+        }
+
+        private void loadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1 = new OpenFileDialog();
+            if( openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                
+                currentQuiz = new Quiz(openFileDialog1.FileName);
+                
+            }
+            ShowQuestion(currentQuiz.currentQuestion);
+        }
     }
 }
