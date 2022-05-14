@@ -77,9 +77,9 @@ namespace SimpleQuizer.Viewer
         private void Next_button_Click(object sender, EventArgs e)
         {
             if (currentQuiz == null) return;
-
-            ShowQuestion(currentQuiz.currentQuestion);
             currentQuiz.NextQuestion();
+            ShowQuestion(currentQuiz.currentQuestion);
+            
             
 
         }
@@ -87,8 +87,9 @@ namespace SimpleQuizer.Viewer
         private void Last_button_Click(object sender, EventArgs e)
         {
             if (currentQuiz == null) return;
-            ShowQuestion(currentQuiz.currentQuestion);
             currentQuiz.PriviousQuestion();
+            ShowQuestion(currentQuiz.currentQuestion);
+            
         }
         private void ShowQuestion(Question question)
         {
