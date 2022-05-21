@@ -51,6 +51,7 @@ namespace SimpleQuizer.Viewer
             this.Last_button = new System.Windows.Forms.Button();
             this.Next_button = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.Проверить_button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -78,14 +79,14 @@ namespace SimpleQuizer.Viewer
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.loadToolStripMenuItem.Text = "Load";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
@@ -114,7 +115,7 @@ namespace SimpleQuizer.Viewer
             this.AnswerText.Multiline = true;
             this.AnswerText.Name = "AnswerText";
             this.AnswerText.ReadOnly = true;
-            this.AnswerText.Size = new System.Drawing.Size(760, 134);
+            this.AnswerText.Size = new System.Drawing.Size(755, 134);
             this.AnswerText.TabIndex = 1;
             this.AnswerText.Text = "Вопсрос";
             // 
@@ -273,13 +274,12 @@ namespace SimpleQuizer.Viewer
             // 
             // CorectnessButton
             // 
-            this.CorectnessButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CorectnessButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.CorectnessButton.Location = new System.Drawing.Point(59, 509);
             this.CorectnessButton.Name = "CorectnessButton";
-            this.CorectnessButton.Size = new System.Drawing.Size(666, 40);
+            this.CorectnessButton.Size = new System.Drawing.Size(386, 40);
             this.CorectnessButton.TabIndex = 5;
-            this.CorectnessButton.Text = "Проверка";
+            this.CorectnessButton.Text = "Сохранить";
             this.CorectnessButton.UseVisualStyleBackColor = true;
             this.CorectnessButton.Click += new System.EventHandler(this.CorectnessButton_Click);
             // 
@@ -309,11 +309,23 @@ namespace SimpleQuizer.Viewer
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // Проверить_button1
+            // 
+            this.Проверить_button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Проверить_button1.Location = new System.Drawing.Point(451, 509);
+            this.Проверить_button1.Name = "Проверить_button1";
+            this.Проверить_button1.Size = new System.Drawing.Size(274, 40);
+            this.Проверить_button1.TabIndex = 8;
+            this.Проверить_button1.Text = "Проверить";
+            this.Проверить_button1.UseVisualStyleBackColor = true;
+            this.Проверить_button1.Click += new System.EventHandler(this.Проверить_button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.Проверить_button1);
             this.Controls.Add(this.Next_button);
             this.Controls.Add(this.Last_button);
             this.Controls.Add(this.CorectnessButton);
@@ -360,6 +372,7 @@ namespace SimpleQuizer.Viewer
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button Проверить_button1;
     }
 }
 

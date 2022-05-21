@@ -16,19 +16,42 @@ namespace SimpleQuizer.Viewer
 
         private List<RadioButton> questionControls;
         private List<Answer> userAnswres;
+        private QuizRezult savedAnswers;
         
         private Quiz currentQuiz;
         public Form1()
         {
             InitializeComponent();
+
             questionControls = new List<RadioButton>();
             userAnswres = new List<Answer>();
-            
+            savedAnswers = new QuizRezult();
+
+
         }
         private void CorectnessButton_Click(object sender, EventArgs e)
         {
+           
+      
+            if (currentQuiz == null) return;
+               
+               
             GetUserInput();
             CheckUserAnswer();
+
+        
+
+            if (currentQuiz.currentQuestion.Number == currentQuiz.Questions.Count)
+            {
+                ShowResult();
+
+            }
+
+            currentQuiz.NextQuestion();
+            ShowQuestion(currentQuiz.currentQuestion);
+
+
+
         }
         private void CheckUserAnswer()
         {
@@ -36,15 +59,16 @@ namespace SimpleQuizer.Viewer
             {
                 if(userAnswres[i].correct == true)
                 {
-                    MessageBox.Show("Correct");
+                    
+                    savedAnswers.correctAll.Add(userAnswres[i]);
+                }
 
-                }
-                else
-                {
-                    MessageBox.Show("Mistake");
-                }
+                savedAnswers.allAll.Add(userAnswres[i]);
+
             }
 
+
+            MessageBox.Show(savedAnswers.allAll.Count.ToString());
 
         }
         private void GetUserInput()
@@ -149,6 +173,16 @@ namespace SimpleQuizer.Viewer
                 
             }
             ShowQuestion(currentQuiz.currentQuestion);
+        }
+
+        private void ShowResult()
+        {
+            QuizResultForm f = new QuizResultForm(savedAnswers);
+            f.Show();
+        }
+        private void Проверить_button1_Click(object sender, EventArgs e)
+        {
+            ShowResult();
         }
     }
 }

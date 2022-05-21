@@ -98,7 +98,7 @@ namespace SimpleQuizer
             z.Text = "Для чего нужны простые механизмы";
             z.Type = QuestionType.Choise;
             z.Answers.Add(new Answer("Для Крутоты", false));
-            z.Answers.Add(new Answer("Для выигрыша в Работе", false));
+            z.Answers.Add(new Answer("Для выигрыша в Работе ", false));
             z.Answers.Add(new Answer("Для выигрыша в Силе", true));
             quiz.Questions.Add(z);
 

@@ -34,3 +34,4 @@ C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.dll
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.pdb
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.dll
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.pdb
+C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\SimpleQuizer.Viewer.QuizResultForm.resources
