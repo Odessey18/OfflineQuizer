@@ -10,7 +10,6 @@ namespace SimpleQuizer
     {
         public List<Question> Questions;
         public Question currentQuestion => Questions[currentQuestionIndex];
-
         private int currentQuestionIndex;
         public Quiz()
         {
@@ -43,7 +42,6 @@ namespace SimpleQuizer
             q.Answers.Add(new Answer("для фильтрации газа", false));
             q.Answers.Add(new Answer("для подачи топлива ", true));
             q.Answers.Add(new Answer("для уменьшения сопротивления воздуха", false));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(q);
 
             Question w = new Question();
@@ -52,7 +50,6 @@ namespace SimpleQuizer
             w.Type = QuestionType.Choise;
             w.Answers.Add(new Answer("Метод", true));
             w.Answers.Add(new Answer("Класс ", false));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(w);
 
             Question z = new Question();
@@ -62,7 +59,6 @@ namespace SimpleQuizer
             z.Answers.Add(new Answer("currentQuestion = new Question();", false));
             z.Answers.Add(new Answer("int i = 0 ", false));
             z.Answers.Add(new Answer("private List<Answer> userAnswres;", true));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(z);
 
             Question x = new Question();
@@ -72,7 +68,6 @@ namespace SimpleQuizer
             x.Answers.Add(new Answer("I = UR", true));
             x.Answers.Add(new Answer("S = Ut", false));
             x.Answers.Add(new Answer("A = FS", false));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(x);
 
             return quiz;
@@ -88,7 +83,6 @@ namespace SimpleQuizer
             q.Answers.Add(new Answer("Ньютон", false));
             q.Answers.Add(new Answer("Резерфорд", true));
             q.Answers.Add(new Answer("Томсон", false));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(q);
 
             Question w = new Question();
@@ -97,7 +91,6 @@ namespace SimpleQuizer
             w.Type = QuestionType.Choise;
             w.Answers.Add(new Answer("Тело, Сила, Перемещение ", true));
             w.Answers.Add(new Answer("Плотность, Масса, Объем", false));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(w);
 
             Question z = new Question();
@@ -107,7 +100,6 @@ namespace SimpleQuizer
             z.Answers.Add(new Answer("Для Крутоты", false));
             z.Answers.Add(new Answer("Для выигрыша в Работе", false));
             z.Answers.Add(new Answer("Для выигрыша в Силе", true));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(z);
 
             Question x = new Question();
@@ -117,7 +109,6 @@ namespace SimpleQuizer
             x.Answers.Add(new Answer("U235, Pu239", true));
             x.Answers.Add(new Answer("U239, Pu239", false));
             x.Answers.Add(new Answer("U235, Np239", false));
-            q.CorrectAswerAmount = 1;
             quiz.Questions.Add(x);
 
             return quiz;

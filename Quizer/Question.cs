@@ -9,8 +9,7 @@ namespace SimpleQuizer
     public enum QuestionType
     {
         MultiChoise,
-        Choise,
-        Open
+        Choise
     }
 
     [Serializable]
@@ -20,7 +19,6 @@ namespace SimpleQuizer
         public string Text;
         public QuestionType Type;
         public List<Answer> Answers;
-        public int CorrectAswerAmount;
 
         public Question()
         {
