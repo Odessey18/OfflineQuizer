@@ -15,17 +15,16 @@ namespace SimpleQuizer.Viewer
     {
 
         private List<RadioButton> questionControls;
-        private List<Answer> userAnswres;
-        private QuizRezult savedAnswers;
-        
+        //private List<Answer> userAnswres;
+        private QuizRezult result;
         private Quiz currentQuiz;
         public Form1()
         {
             InitializeComponent();
 
             questionControls = new List<RadioButton>();
-            userAnswres = new List<Answer>();
-            savedAnswers = new QuizRezult();
+            //userAnswres = new List<Answer>();
+            result = new QuizRezult();
 
 
         }
@@ -55,35 +54,38 @@ namespace SimpleQuizer.Viewer
         }
         private void CheckUserAnswer()
         {
-            for (int i = 0; i < userAnswres.Count; i++)
+            for (int i = 0; i < currentQuiz.currentQuestion.UserAnswers.Count; i++)
             {
-                if(userAnswres[i].correct == true)
+                if(currentQuiz.currentQuestion.UserAnswers[i].correct == true)
                 {
-                    
-                    savedAnswers.correctAll.Add(userAnswres[i]);
+
+                    result.correctAll++;
+                   // result.correctAll.Add(currentQuiz.currentQuestion.UserAnswers[i]);
                 }
 
-                savedAnswers.allAll.Add(userAnswres[i]);
+                //result.allAll.Add(currentQuiz.currentQuestion.UserAnswers[i]);
 
             }
 
 
-            MessageBox.Show(savedAnswers.allAll.Count.ToString());
+            //MessageBox.Show(savedAnswers.allAll.Count.ToString());
 
         }
         private void GetUserInput()
         {
-            userAnswres.Clear();
+            currentQuiz.currentQuestion.UserAnswers.Clear();
 
             for (int i = 0; i < questionControls.Count; i++)
             {
                 if (questionControls[i].Checked == true)
                 {
-                    userAnswres.Add(currentQuiz.currentQuestion.Answers[i]);
+                    currentQuiz.currentQuestion.UserAnswers.Add(currentQuiz.currentQuestion.Answers[i]);
 
                 }
-                
+                ////
             }
+            result.quizQuestion.Add(currentQuiz.currentQuestion);
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -177,7 +179,7 @@ namespace SimpleQuizer.Viewer
 
         private void ShowResult()
         {
-            QuizResultForm f = new QuizResultForm(savedAnswers);
+            QuizResultForm f = new QuizResultForm(result);
             f.Show();
         }
         private void Проверить_button1_Click(object sender, EventArgs e)

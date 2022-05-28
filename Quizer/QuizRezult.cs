@@ -9,12 +9,16 @@ namespace SimpleQuizer
     [Serializable]
     public class QuizRezult
     {
-        public List<Answer> correctAll;
-        public List<Answer> allAll;
+        public int correctAll;
+        public int allAll;
+
+        public List<Question> quizQuestion;
         public QuizRezult()
         {
-            correctAll = new List<Answer>();
-            allAll = new List<Answer>();
+
+            quizQuestion = new List<Question>();
+
+
         }
 
     //public List<Answer> Answer;

@@ -19,10 +19,13 @@ namespace SimpleQuizer
         public string Text;
         public QuestionType Type;
         public List<Answer> Answers;
+        public List<Answer> UserAnswers;
+
 
         public Question()
         {
             Answers = new List<Answer>();
+            UserAnswers = new List<Answer>();
         }
         
     }
