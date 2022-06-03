@@ -35,3 +35,17 @@ C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.pdb
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.dll
 C:\Users\noMercy\Desktop\OfflineQuizer\QuizViewer\bin\Debug\SimpleQuizer.pdb
 C:\Users\Vasya\Desktop\OfflineQuizer\QuizViewer\obj\Debug\SimpleQuizer.Viewer.QuizResultForm.resources
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\bin\Debug\QuizViewer.exe.config
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\bin\Debug\QuizViewer.exe
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\bin\Debug\QuizViewer.pdb
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\bin\Debug\SimpleQuizer.dll
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\bin\Debug\SimpleQuizer.pdb
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\QuizViewer.csproj.AssemblyReference.cache
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\SimpleQuizer.Viewer.Form1.resources
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\SimpleQuizer.Viewer.Properties.Resources.resources
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\SimpleQuizer.Viewer.QuizResultForm.resources
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\QuizViewer.csproj.GenerateResource.cache
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\QuizViewer.csproj.CoreCompileInputs.cache
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\QuizViewer.csproj.CopyComplete
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\QuizViewer.exe
+C:\Users\noMercy\Desktop\OfflineQuizer1\QuizViewer\obj\Debug\QuizViewer.pdb
